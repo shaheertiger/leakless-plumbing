@@ -2,7 +2,7 @@
 
 A world-class, modern, SEO-optimized and LLM-optimized website for **Leakless Plumbing**, a professional plumbing company serving the Greater Toronto Area (GTA), Ontario, Canada.
 
-The site is **conversion-focused for phone calls only** — there are no contact forms, quote forms, email capture, or booking forms anywhere. Every section drives visitors to call **437-256-9440** (`tel:4372569440`).
+The site is **conversion-focused for phone calls only** — there are no contact forms, quote forms, email capture, or booking forms anywhere. Every section drives visitors to call **437-996-1996** (`tel:4379961996`).
 
 ## Tech
 
@@ -19,10 +19,14 @@ The site is **conversion-focused for phone calls only** — there are no contact
 | `emergency-plumbing.html` | Emergency Plumbing GTA landing page |
 | `drain-cleaning.html` | Drain Cleaning GTA landing page |
 | `leak-detection-repair.html` | Leak Detection & Repair landing page |
+| `water-heater-repair.html` | Water Heater Repair & Installation landing page |
+| `toilet-repair-installation.html` | Toilet & Fixture Repair landing page |
+| `sewer-backup-repair.html` | Sewer Backup & Sewer Line Repair landing page |
 | `sump-pump-services.html` | Sump Pump Services landing page |
 | `commercial-plumbing.html` | Commercial Plumbing GTA landing page |
 | `residential-plumbing.html` | Residential Plumbing GTA landing page |
 | `service-areas.html` | Service Areas (cities + regions) |
+| `<city>-plumbing.html` | 17 per-city landing pages (Toronto, Mississauga, Brampton, etc.) |
 | `about.html` | About Us |
 | `call.html` | Call Now / Contact (phone, hours, service area, map placeholder) |
 
@@ -36,7 +40,7 @@ The site is **conversion-focused for phone calls only** — there are no contact
 
 - **Sticky mobile call bar** fixed to the bottom of every page.
 - **Desktop floating call button** (top-right) with pulse animation.
-- **Click-to-call CTAs** in every major section using `tel:4372569440`.
+- **Click-to-call CTAs** in every major section using `tel:4379961996`.
 - Varied call-to-action copy (Call Now, Tap to Call, Emergency? Call Now, Speak With a Local Plumber, etc.).
 
 ## SEO & LLM optimization
@@ -51,9 +55,8 @@ The site is **conversion-focused for phone calls only** — there are no contact
 
 - Replace the domain `https://www.leaklessplumbing.ca/` in canonical/OG/schema/sitemap URLs with the real domain when known.
 - Add a real Google Maps embed in `call.html` where the placeholder is marked.
-- The site is structured for **future per-city landing pages** (e.g. `plumber-toronto.html`, `plumber-mississauga.html`) — follow the existing service-page template.
 - Update business hours and any licensing/insurance details to match the real business.
 
 ## Contact
 
-**Call 437-256-9440** — the fastest (and only) way to reach a GTA plumber.
+**Call 437-996-1996** — the fastest (and only) way to reach a GTA plumber.
