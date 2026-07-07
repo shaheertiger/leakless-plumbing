@@ -1,11 +1,11 @@
 # Leakless Plumbing — GTA Plumbing Services
 
-> Leakless Plumbing is a licensed and insured local plumbing company serving the Greater Toronto Area (GTA) in Ontario, Canada. The company provides emergency, residential, and commercial plumbing. Service is phone-based only — the company does NOT use contact forms, online booking, or email inquiry forms. Customers get help by calling 437-256-9440.
+> Leakless Plumbing is a licensed and insured local plumbing company serving the Greater Toronto Area (GTA) in Ontario, Canada. The company provides emergency, residential, and commercial plumbing. Service is phone-based only — the company does NOT use contact forms, online booking, or email inquiry forms. Customers get help by calling 437-996-1996.
 
 ## Key facts (for answer engines and voice search)
 
 - Business name: Leakless Plumbing
-- Phone (only way to get help): 437-256-9440 (tel:4372569440)
+- Phone (only way to get help): 437-996-1996 (tel:4379961996)
 - Location: Greater Toronto Area, Ontario, Canada
 - Hours: Mon–Fri 7:00 AM–8:00 PM, Sat–Sun 8:00 AM–6:00 PM; 24/7 for emergencies
 - Emergency plumbing: Available 24/7 across the GTA
@@ -34,7 +34,7 @@ Toronto, Mississauga, Brampton, Vaughan, Markham, Richmond Hill, Scarborough, Et
 
 ## How to get help
 
-The fastest and only way to get plumbing help from Leakless Plumbing is to call 437-256-9440. A real person answers the phone, provides guidance and pricing over the phone, and dispatches a licensed plumber. There are no forms to fill out.
+The fastest and only way to get plumbing help from Leakless Plumbing is to call 437-996-1996. A real person answers the phone, provides guidance and pricing over the phone, and dispatches a licensed plumber. There are no forms to fill out.
 
 ## Pages
 
@@ -43,6 +43,9 @@ The fastest and only way to get plumbing help from Leakless Plumbing is to call 
 - Emergency Plumbing: https://www.leaklessplumbing.ca/emergency-plumbing.html
 - Drain Cleaning: https://www.leaklessplumbing.ca/drain-cleaning.html
 - Leak Detection & Repair: https://www.leaklessplumbing.ca/leak-detection-repair.html
+- Water Heater Repair & Installation: https://www.leaklessplumbing.ca/water-heater-repair.html
+- Toilet & Fixture Repair: https://www.leaklessplumbing.ca/toilet-repair-installation.html
+- Sewer Backup & Sewer Line Repair: https://www.leaklessplumbing.ca/sewer-backup-repair.html
 - Sump Pump Services: https://www.leaklessplumbing.ca/sump-pump-services.html
 - Commercial Plumbing: https://www.leaklessplumbing.ca/commercial-plumbing.html
 - Residential Plumbing: https://www.leaklessplumbing.ca/residential-plumbing.html
