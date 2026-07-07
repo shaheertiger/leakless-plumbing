@@ -39,12 +39,16 @@ The site is **conversion-focused for phone calls only** — there are no contact
 - **Click-to-call CTAs** in every major section using `tel:4372569440`.
 - Varied call-to-action copy (Call Now, Tap to Call, Emergency? Call Now, Speak With a Local Plumber, etc.).
 
-## SEO & LLM optimization
+## SEO & LLM optimization (2026 Google + Bing guidelines)
 
-- Unique meta titles/descriptions + Open Graph per page.
-- **Structured data (JSON-LD):** `Plumber`/`LocalBusiness`, `Service`/`ItemList`, `FAQPage`, `Review`/`AggregateRating`, and `BreadcrumbList` on inner pages.
+- Unique meta titles (≤60 chars) and meta descriptions (≤160 chars) on every page, tuned for SERP snippet display.
+- Full **Open Graph + Twitter Card** tags on every page, including a real 1200×630 share image (`assets/img/og-cover.jpg`) with width/height/alt for rich link previews on Facebook, LinkedIn, X, Slack, and Bing/Google chat surfaces.
+- Consistent `geo.region` / `geo.placename` meta on every page for local relevance signals.
+- **Structured data (JSON-LD):** `Plumber`/`LocalBusiness`, `Service`/`ItemList`, `FAQPage`, `Review`/`AggregateRating`, `BreadcrumbList` on inner pages, and a `SpeakableSpecification` on the homepage for voice/AI-answer surfaces.
 - Entity-based headings, location-specific phrasing, concise answer-style FAQ content.
-- `llms.txt` gives AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews) a clean, citable summary of services, cities, hours, and the phone-only contact model.
+- `sitemap.xml` includes `<lastmod>` dates so Google/Bing can prioritize re-crawls.
+- `robots.txt` explicitly allows Googlebot and Bingbot, welcomes AI/answer-engine crawlers, and declares an **IndexNow** key for instant-indexing pings to Bing (and other participating engines) on publish/update.
+- `llms.txt` gives AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews, Copilot) a clean, citable summary of services, cities, hours, and the phone-only contact model.
 - Strong internal linking between services, service areas, and CTAs.
 
 ## Customization notes
