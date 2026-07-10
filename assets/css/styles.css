@@ -322,6 +322,28 @@ strong { color: var(--ink); }
 .card ul { padding-left: 1.1rem; margin: 0 0 1.1rem; font-size: .93rem; }
 .card ul li { margin-bottom: .35rem; }
 
+/* ---------- Work gallery ---------- */
+.gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(.7rem, 1.6vw, 1.1rem); }
+.gallery-item {
+  position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden;
+  border-radius: var(--radius); border: 1px solid var(--glass-border-blue); box-shadow: var(--shadow-sm);
+  background: var(--glass-bg);
+}
+.gallery-item img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
+.gallery-item:hover img { transform: scale(1.06); }
+.gallery-item::after {
+  content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(10,37,64,.55) 100%);
+  opacity: 0; transition: opacity .25s ease;
+}
+.gallery-item:hover::after { opacity: 1; }
+.gallery-item .g-cap {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: .8rem .9rem; color: #fff; font-size: .82rem; font-weight: 700;
+  opacity: 0; transform: translateY(6px); transition: opacity .25s ease, transform .25s ease; letter-spacing: .01em;
+}
+.gallery-item:hover .g-cap { opacity: 1; transform: translateY(0); }
+@media (max-width: 880px) { .gallery-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+
 /* Glass feature rows (why choose us) */
 .feature {
   display: flex; gap: 1rem; padding: 1.35rem; background: var(--glass-bg); border: 1px solid var(--glass-border-blue);
