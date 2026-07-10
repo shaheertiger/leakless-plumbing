@@ -165,12 +165,8 @@ strong { color: var(--ink); }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: .75rem; height: 74px; }
 .brand { display: flex; align-items: center; gap: .6rem; font-weight: 900; color: var(--navy); font-size: 1.1rem; letter-spacing: -.02em; }
 .brand:hover { color: var(--navy); }
-.brand .logo-mark {
-  width: 38px; height: 38px; border-radius: 11px; background: var(--grad-water);
-  display: grid; place-items: center; box-shadow: var(--shadow-water); flex: none;
-  border: 1px solid rgba(255,255,255,.4);
-}
-.brand .logo-mark svg { width: 20px; height: 20px; }
+.brand .logo-mark { height: 46px; width: auto; display: block; flex: none; }
+.brand .logo-mark img { height: 46px; width: auto; display: block; }
 .brand small { display: none; }
 .nav-links { display: flex; align-items: center; gap: .05rem; list-style: none; margin: 0; padding: 0; }
 .nav-links a {
