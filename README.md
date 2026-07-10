@@ -53,7 +53,7 @@ The site is **conversion-focused for phone calls only** — there are no contact
 
 ## Customization notes
 
-- Replace the domain `https://www.leaklessplumbing.ca/` in canonical/OG/schema/sitemap URLs with the real domain when known.
+- Replace the domain `https://www.leakless.ca/` in canonical/OG/schema/sitemap URLs with the real domain when known.
 - Add a real Google Maps embed in `call.html` where the placeholder is marked.
 - The site is structured for **future per-city landing pages** (e.g. `plumber-toronto.html`, `plumber-mississauga.html`) — follow the existing service-page template.
 - Update business hours and any licensing/insurance details to match the real business.

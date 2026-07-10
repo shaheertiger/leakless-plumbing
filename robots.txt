@@ -22,8 +22,8 @@ Allow: /
 User-agent: BingPreview
 Allow: /
 
-Sitemap: https://www.leaklessplumbing.ca/sitemap.xml
+Sitemap: https://www.leakless.ca/sitemap.xml
 
 # IndexNow (instant-indexing for Bing and other participating engines)
 # https://www.indexnow.org/
-IndexNow: https://www.leaklessplumbing.ca/ce47600b8a58dc023fe844432408a7ed.txt
+IndexNow: https://www.leakless.ca/ce47600b8a58dc023fe844432408a7ed.txt
