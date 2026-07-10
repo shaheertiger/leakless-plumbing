@@ -479,10 +479,13 @@ strong { color: var(--ink); }
 .call-bar .cb-btn { background: #fff; color: var(--flame); font-weight: 900; padding: .7rem 1.1rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .45rem; white-space: nowrap; }
 .call-bar .cb-btn svg { width: 17px; height: 17px; }
 
-/* Desktop floating call button (unused by default; kept for future use) */
+/* Desktop floating call button — persistent CTA once the hero scrolls out of view */
 .float-call {
-  position: fixed; top: 90px; right: max(1rem, calc((100vw - var(--maxw)) / 2 + 1rem)); z-index: 55; display: none;
+  position: fixed; bottom: 28px; right: max(1.4rem, calc((100vw - var(--maxw)) / 2 + 1.4rem)); z-index: 55;
+  display: inline-flex; opacity: 0; transform: translateY(12px); pointer-events: none;
+  transition: opacity .25s ease, transform .25s ease;
 }
+.float-call.is-visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
 
 /* ---------- Breadcrumb ---------- */
 .breadcrumb { padding-block: 1.2rem 0; }
@@ -562,6 +565,7 @@ strong { color: var(--ink); }
   .nav-links.open { display: flex; }
   .nav-links a { padding: .8rem 1rem; font-size: 1rem; }
   .call-bar { display: flex; }
+  .float-call { display: none !important; }
   body { padding-bottom: 72px; }
 }
 
@@ -574,7 +578,6 @@ strong { color: var(--ink); }
   .steps { grid-template-columns: repeat(2, 1fr); }
   .area-grid { grid-template-columns: repeat(3, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
-  .float-call { display: none !important; }
   .stat-strip { margin-top: 1rem; }
 }
 
