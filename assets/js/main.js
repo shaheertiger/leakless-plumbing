@@ -29,4 +29,14 @@
       a.classList.add("active");
     }
   });
+
+  // Reveal the floating desktop call button once the hero has scrolled out of view
+  var floatCall = document.querySelector(".float-call");
+  if (floatCall) {
+    var toggleFloatCall = function () {
+      floatCall.classList.toggle("is-visible", window.scrollY > 480);
+    };
+    toggleFloatCall();
+    window.addEventListener("scroll", toggleFloatCall, { passive: true });
+  }
 })();
