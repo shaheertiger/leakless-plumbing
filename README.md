@@ -25,6 +25,15 @@ The site is **conversion-focused for phone calls only** — there are no contact
 | `service-areas.html` | Service Areas (cities + regions) |
 | `about.html` | About Us |
 | `call.html` | Call Now / Contact (phone, hours, service area, map placeholder) |
+| `plumber-near-me.html` | "Plumber near me" / local plumber keyword page |
+| `professional-plumber.html` | "Plumber services", "plumber service", "plumber repair", "professional plumber" |
+| `affordable-plumber.html` | Affordable / cheap / inexpensive / low-cost plumber keyword cluster |
+| `plumber-cost.html` | Informational: plumber cost, minimum charge, weekend rates, "why are plumbers so expensive" |
+| `cheap-plumber-small-jobs.html` | Small-job cluster: unclog a toilet, install a toilet, small jobs near me |
+| `senior-discount-plumber.html` | "Plumbers for seniors near me prices" + scam-avoidance content |
+
+Per-city pages (`plumber-toronto.html`, `plumber-mississauga.html`, etc.) and per-service pages
+(`water-heater-repair.html`, `hydro-jetting.html`, etc.) follow the same template.
 
 ## Assets
 
@@ -50,6 +59,9 @@ The site is **conversion-focused for phone calls only** — there are no contact
 - `robots.txt` explicitly allows Googlebot and Bingbot, welcomes AI/answer-engine crawlers, and declares an **IndexNow** key for instant-indexing pings to Bing (and other participating engines) on publish/update.
 - `llms.txt` gives AI search engines (ChatGPT, Gemini, Perplexity, Google AI Overviews, Copilot) a clean, citable summary of services, cities, hours, and the phone-only contact model.
 - Strong internal linking between services, service areas, and CTAs.
+- **Keyword-cluster landing pages** rather than one page per keyword variant: each page owns a search intent (local, transactional-price, informational-cost, small-job, senior) so pages do not cannibalize each other in the SERP.
+- Common misspellings (`plumbler`, `plubmer`) deliberately get **no dedicated page** — search engines resolve them to `plumber`, and a page targeting a typo reads as thin content.
+- Every keyword page carries `BreadcrumbList` + `Service` (or `WebPage`) + `FAQPage` JSON-LD, and links into the service, city, and pricing pages to keep the internal link graph tight.
 
 ## Customization notes
 
